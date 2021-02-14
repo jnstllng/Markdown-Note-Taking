@@ -149,10 +149,14 @@ For Android and Nextcloud users, the combined use of *FolderSync* and *Markor* i
 
 	FolderSync is an Android App which allows to create one-way or two-way synchronization profiles between the local device and numerous cloud providers. Additional protocols includes (S)FTP, SMB and WebDAV. The latter is suitable to create sync profiles with Nextcloud. Sync can be set up to on schedule e.g. every 30 minutes, but can also combined with a sync immediately when files are changed.
 
-	![](Media/FolderSync.jpg)
-
+	<p align="center">
+	<img src="Media/FolderSync.jpg" width="400">
+	</p>
+	
 2. Editing/Viewing markdown files with **[Markor](https://play.google.com/store/apps/details?id=net.gsantner.markor)**
 
 	Markor allows editing and viewing files in markdown or todo.txt formats.
-
-	![](Media/Markor_Plaintext.jpg)
+	
+	<p align="center">
+	<img src="Media/Markor_Plaintext.jpg" width="400">
+	</p>
