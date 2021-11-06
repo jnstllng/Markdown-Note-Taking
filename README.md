@@ -25,7 +25,7 @@ Markdown is barrier-free and cross-platform. This is a short summary of an examp
 5. **[markdown-table-editor](https://atom.io/packages/markdown-table-editor)**
    - Easily create and extend tables in markdown files
 6. **[markdown-image-insert](https://atom.io/packages/markdown-image-insert)**
-   - Take a screenshot and paste it into markdown files via <kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd>
+   - Take a screenshot and paste it into markdown files via <kbd></kbd>+<kbd>Alt</kbd>+<kbd>V</kbd>
    - Images will be saved automatically to a *Media* subfolder of the corresponding markdown file location
 7. **[toggle-markdown-task](https://atom.io/packages/toggle-markdown-task)**
    - Toggle checkbox via keyboard shortcut, must be adjusted in keymap to avoid conflict with *date-plus* package
@@ -35,7 +35,7 @@ Markdown is barrier-free and cross-platform. This is a short summary of an examp
    - This package is *archived* and no longer maintained, but still works without issues. It has to be installed manually.
    - Allows exporting markdown files to pdf and other file formats
    - *styles.css*, *header.js* and *footer.js* file can be adjusted to fit the user's export style (see below)
-   - <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> to export the current markdown file
+   - <kbd></kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> to export the current markdown file
 10. **[autosave](https://atom.io/packages/autosave)**
     - Automatically save file when it loses focus in Atom
 11. **[date-plus](https://atom.io/packages/date-plus)**
@@ -56,6 +56,9 @@ Markdown is barrier-free and cross-platform. This is a short summary of an examp
     - Toggle distraction-free writing by pressing <kbd>Shift</kbd>+<kbd>F11</kbd>
 20. **[spell-check](https://atom.io/packages/spell-check)**
     - Adds spell-check for any language, multiple languages can be added
+21. **[minimap](https://atom.io/packages/minimap)**
+    - Sidebar with full file preview
+    - Toggle on/off via <kbd>Ctrl</kbd>+<kbd>Space</kbd>
 
 #### Adjustments for markdown-themeable-pdf
 
@@ -124,6 +127,9 @@ Adjustments for the described Atom setup as follows:
 
 'atom-text-editor:not([mini])':
   'ctrl-tab': 'snippets:expand'
+
+'atom-workspace, atom-text-editor, minimap-quick-settings':
+  'ctrl-space': 'minimap:toggle'
 ```
 
 ### Snippets Adjustments
@@ -149,14 +155,15 @@ For Android and Nextcloud users, the combined use of *FolderSync* and *Markor* i
 
 	FolderSync is an Android App which allows to create one-way or two-way synchronization profiles between the local device and numerous cloud providers. Additional protocols includes (S)FTP, SMB and WebDAV. The latter is suitable to create sync profiles with Nextcloud. Sync can be set up to on schedule e.g. every 30 minutes, but can also combined with a sync immediately when files are changed.
 
+
 	<p align="center">
 	<img src="Media/FolderSync.jpg" width="400">
 	</p>
-	
+
 2. Editing/Viewing markdown files with **[Markor](https://play.google.com/store/apps/details?id=net.gsantner.markor)**
 
 	Markor allows editing and viewing files in markdown or todo.txt formats.
-	
+
 	<p align="center">
 	<img src="Media/Markor_Plaintext.jpg" width="400">
 	</p>
