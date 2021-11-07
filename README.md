@@ -4,18 +4,18 @@ Markdown is barrier-free and cross-platform. This is a short summary of an examp
 
 ## Setup Atom as Markdown Note-Taking Tool
 
-*Atom* allows to be set up as the perfect markdown note-taking or writing tool for any kind text-based projects. This allows fast and economical recording of ideas with text, screenshots etc.
+**_Atom_** allows to be set up as the perfect markdown note-taking or (creative) writing tool for any kind text-based projects. This allows fast and economical recording of ideas with text, screenshots etc. This repository summarizes a list of packages that I use for my perfect markdown setup. The list is frequently updated as usage of Atom with its packages might change.
 
 ![](Media/Atom_Markdown.png)
 
-### Packages
+## Packages
 
 1. **[sync-settings](https://atom.io/packages/sync-settings)**
    - Manually backup Atom settings via Menu > Packages > Synchronize Settings
    - Automatic Check/Restore
    - Includes packages, keymaps and snippets
-   - *Personal Access Token* and *(Secret) Gist ID* needed
-   - *This will be the only package you will need to install if you want to restore your Atom setup on new device*
+   - _Personal Access Token_ and _(Secret) Gist ID_ needed
+   - _This will be the only package you will need to install if you want to restore your Atom setup on new device_
 2. **[language-gfm](https://atom.io/packages/language-gfm)**
 	 - Installed by default, Github Flavored Markdown
 3. **[markdown-writer](https://atom.io/packages/markdown-writer)**
@@ -25,27 +25,29 @@ Markdown is barrier-free and cross-platform. This is a short summary of an examp
 5. **[markdown-table-editor](https://atom.io/packages/markdown-table-editor)**
    - Easily create and extend tables in markdown files
 6. **[markdown-image-insert](https://atom.io/packages/markdown-image-insert)**
-   - Take a screenshot and paste it into markdown files via <kbd></kbd>+<kbd>Alt</kbd>+<kbd>V</kbd>
-   - Images will be saved automatically to a *Media* subfolder of the corresponding markdown file location
+   - Take a screenshot and paste it into markdown files via <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd>
+   - Images will be saved automatically to a _Media_ subfolder of the corresponding markdown file location
 7. **[toggle-markdown-task](https://atom.io/packages/toggle-markdown-task)**
-   - Toggle checkbox via keyboard shortcut, must be adjusted in keymap to avoid conflict with *date-plus* package
+   - Toggle checkbox via keyboard shortcut, must be adjusted in keymap to avoid conflict with _date-plus_ package
 8. **[pdf-view](https://atom.io/packages/pdf-view)**
    - Allows viewing pdf files in Atom
 9. **[markdown-themeable-pdf](https://github.com/cakebake/markdown-themeable-pdf)**
-   - This package is *archived* and no longer maintained, but still works without issues. It has to be installed manually.
+   - This package is _archived_ and no longer maintained, but still works without issues. It has to be installed manually.
    - Allows exporting markdown files to pdf and other file formats
-   - *styles.css*, *header.js* and *footer.js* file can be adjusted to fit the user's export style (see below)
-   - <kbd></kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> to export the current markdown file
+   - _styles.css_, _header.js_ and _footer.js_ file can be adjusted to fit the user's export style (see below)
+   - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> to export the current markdown file
 10. **[autosave](https://atom.io/packages/autosave)**
     - Automatically save file when it loses focus in Atom
 11. **[date-plus](https://atom.io/packages/date-plus)**
-    - Allows to define auto-insert date and time via keyboard shortcut, must be adjusted in keymap to avoid conflict with *toggle-markdown-task* package
+    - Allows to define auto-insert date and time via keyboard shortcut, must be adjusted in keymap to avoid conflict with _toggle-markdown-task_ package
 12. **[delete-whitelines](https://atom.io/packages/Delete-Whitelines)**
     - Delete empty lines by <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>
 13. **[sort-lines](https://atom.io/packages/sort-lines)**
     - Sort marked lines by pressing <kbd>F5</kbd>
 14. **[tool-bar](https://atom.io/packages/tool-bar)**
-15. **[tool-bar-markdown-writer](https://atom.io/packages/tool-bar-markdown-writer)**
+    - Toggle visibility via <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>
+15. **[flex-toolbar](https://atom.io/packages/flex-tool-bar)**
+    - Allows to create tailor-made toolbars with any commands available in Atom
 16. **[file-icons](https://atom.io/packages/file-icons)**
     - Display icons for file types in project folder and tabs
 17. **[line-count-status](https://atom.io/packages/line-count-status)**
@@ -60,9 +62,11 @@ Markdown is barrier-free and cross-platform. This is a short summary of an examp
     - Sidebar with full file preview
     - Toggle on/off via <kbd>Ctrl</kbd>+<kbd>Space</kbd>
 
-#### Adjustments for markdown-themeable-pdf
+  [ab1d294a]: 123 "123"
 
-Files are located in `/.atom/markdown-themeable-pdf`. Images for header or footer to be placed in the same folder.
+### Adjustments for markdown-themeable-pdf
+
+Files are located in `/.atom/markdown-themeable-pdf/` by default. Images for header or footer have to be placed in the same folder. I changed the settings to store these files in `/.atom/` and add `header.js`, `footer.js` as well as `logo.png` to the list of _extra files_ to be synchronized to the Gist by _Sync Settings_.
 
 - **header.js**
 	```
@@ -105,6 +109,21 @@ Files are located in `/.atom/markdown-themeable-pdf`. Images for header or foote
 	}
 	```
 
+### Adjustments for flex-toolbar
+The _flex-toolbar_ package creates a `toolbar.cson` file in /.atom/ which needs to be added to the list of _extra files_ to be synchronized to the Gist by _Sync Settings_. Buttons can be added as described below.
+
+- **toolbar.cson**
+  ```
+  [
+    {
+      type: "button"
+      icon: "gear"
+      tooltip: "Atom Settings"
+      callback: "settings-view:open"
+    }
+  ]
+  ```
+
 ### Keymap Adjustments
 Keyboard shortcuts can be adjusted and added individually in the *keymap.cson* file which is accessible via File > Keymap...
 Adjustments for the described Atom setup as follows:
@@ -146,11 +165,11 @@ For Markdown files, snippets can be referenced starting with `'.source.gfm':`. T
 
 ## Cloud Synchronization of your Notes
 
-As all files are simple text-based and cross-platform markdown *.md* files, synchronization can easily be done with any cloud (e.g. Google Drive, OneDrive, Nextcloud, OwnCloud). All files and assets (e.g. media) are referenced relatively.
+As all files are simple text-based and cross-platform markdown _.md_ files, synchronization can easily be done with any cloud (e.g. Google Drive, OneDrive, Nextcloud, OwnCloud). All files and assets (e.g. media) are referenced relatively.
 
 ## Android Setup
 
-For Android and Nextcloud users, the combined use of *FolderSync* and *Markor* is suggested.
+For Android and Nextcloud users, the combined use of _FolderSync_ and _Markor_ is suggested.
 1. Synchronization with **[FolderSync Pro](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full&hl)**
 
 	FolderSync is an Android App which allows to create one-way or two-way synchronization profiles between the local device and numerous cloud providers. Additional protocols includes (S)FTP, SMB and WebDAV. The latter is suitable to create sync profiles with Nextcloud. Sync can be set up to on schedule e.g. every 30 minutes, but can also combined with a sync immediately when files are changed.
