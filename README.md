@@ -61,8 +61,11 @@ Markdown is barrier-free and cross-platform. This is a short summary of an examp
 21. **[minimap](https://atom.io/packages/minimap)**
     - Sidebar with full file preview
     - Toggle on/off via <kbd>Ctrl</kbd>+<kbd>Space</kbd>
-
-  [ab1d294a]: 123 "123"
+22. **[color-tabs](https://atom.io/packages/color-tabs)**
+    - add the ability to manually add color to tabs
+    - should be combined with [color-tabs-regex](https://atom.io/packages/color-tabs-regex) for automatic coloring
+23. **[color-tabs-regex](https://atom.io/packages/color-tabs-regex)**
+    - automatically color tabs based on rules set in _~/.atom/color-tabs-regex.cson_
 
 ### Adjustments for markdown-themeable-pdf
 
@@ -110,19 +113,24 @@ Files are located in `/.atom/markdown-themeable-pdf/` by default. Images for hea
 	```
 
 ### Adjustments for flex-toolbar
-The _flex-toolbar_ package creates a `toolbar.cson` file in /.atom/ which needs to be added to the list of _extra files_ to be synchronized to the Gist by _Sync Settings_. Buttons can be added as described below.
+The _flex-toolbar_ package creates a `toolbar.cson` file in _/.atom/_ which needs to be added to the list of _extra files_ to be synchronized to the Gist by _Sync Settings_. Buttons can be added as described below.
 
-- **toolbar.cson**
-  ```
-  [
-    {
-      type: "button"
-      icon: "gear"
-      tooltip: "Atom Settings"
-      callback: "settings-view:open"
-    }
-  ]
-  ```
+```
+[
+  {
+    type: "button"
+    icon: "gear"
+    tooltip: "Atom Settings"
+    callback: "settings-view:open"
+  }
+]
+```
+### Adjustments for color-tabs and color-tabs-regex
+The _color-tabs-regex_ package creates a `color-tabs-regex.cson` file in _/.atom/_. Based on file ending or naming, colors can be defined. File should be created with a new line for each rule, e.g.:
+
+```
+".md": "rgb(66, 135, 245)"
+```
 
 ### Keymap Adjustments
 Keyboard shortcuts can be adjusted and added individually in the *keymap.cson* file which is accessible via File > Keymap...
