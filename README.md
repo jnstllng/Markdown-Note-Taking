@@ -29,43 +29,53 @@ Markdown is barrier-free and cross-platform. This is a short summary of an examp
    - Images will be saved automatically to a _Media_ subfolder of the corresponding markdown file location
 7. **[toggle-markdown-task](https://atom.io/packages/toggle-markdown-task)**
    - Toggle checkbox via keyboard shortcut, must be adjusted in keymap to avoid conflict with _date-plus_ package
-8. **[pdf-view](https://atom.io/packages/pdf-view)**
-   - Allows viewing pdf files in Atom
-9. **[markdown-themeable-pdf](https://github.com/cakebake/markdown-themeable-pdf)**
+8. **[markdown-themeable-pdf](https://github.com/cakebake/markdown-themeable-pdf)**
    - This package is _archived_ and no longer maintained, but still works without issues. It has to be installed manually.
    - Allows exporting markdown files to pdf and other file formats
    - _styles.css_, _header.js_ and _footer.js_ file can be adjusted to fit the user's export style (see below)
    - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> to export the current markdown file
-10. **[autosave](https://atom.io/packages/autosave)**
+9. **[atom-markdown-wrapper](https://github.com/stoe/atom-markdown-wrapper)**
+   - This package is _archived_ and no longer maintained, but still works without issues. It has to be installed manually.
+   - Allows to use preset keyboard shortcuts to set:
+     - _italic_ <kbd>Ctrl</kbd>+<kbd>i</kbd>
+     - **bold** <kbd>Ctrl</kbd>+<kbd>b</kbd>
+     - ~~strikesthrough~~ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>s</kbd>
+10. **[pdf-view](https://atom.io/packages/pdf-view)**
+   - Allows viewing pdf files in Atom
+11. **[autosave](https://atom.io/packages/autosave)**
     - Automatically save file when it loses focus in Atom
-11. **[date-plus](https://atom.io/packages/date-plus)**
+12. **[date-plus](https://atom.io/packages/date-plus)**
     - Allows to define auto-insert date and time via keyboard shortcut, must be adjusted in keymap to avoid conflict with _toggle-markdown-task_ package
-12. **[delete-whitelines](https://atom.io/packages/Delete-Whitelines)**
+13. **[delete-whitelines](https://atom.io/packages/Delete-Whitelines)**
     - Delete empty lines by <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>
-13. **[sort-lines](https://atom.io/packages/sort-lines)**
+14. **[sort-lines](https://atom.io/packages/sort-lines)**
     - Sort marked lines by pressing <kbd>F5</kbd>
-14. **[tool-bar](https://atom.io/packages/tool-bar)**
+15. **[tool-bar](https://atom.io/packages/tool-bar)**
     - Toggle visibility via <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>
-15. **[flex-toolbar](https://atom.io/packages/flex-tool-bar)**
+16. **[flex-toolbar](https://atom.io/packages/flex-tool-bar)**
     - Allows to create tailor-made toolbars with any commands available in Atom
-16. **[file-icons](https://atom.io/packages/file-icons)**
+17. **[file-icons](https://atom.io/packages/file-icons)**
     - Display icons for file types in project folder and tabs
-17. **[line-count-status](https://atom.io/packages/line-count-status)**
+18. **[line-count-status](https://atom.io/packages/line-count-status)**
 	  - Display number of lines of the current file in the status bar
-18. **[wordcount](https://atom.io/packages/wordcount)**
+19. **[wordcount](https://atom.io/packages/wordcount)**
     - Display number of words and characters of the current file
-19. **[Zen](https://atom.io/packages/wordcount)**
+20. **[Zen](https://atom.io/packages/wordcount)**
     - Toggle distraction-free writing by pressing <kbd>Shift</kbd>+<kbd>F11</kbd>
-20. **[spell-check](https://atom.io/packages/spell-check)**
+21. **[spell-check](https://atom.io/packages/spell-check)**
     - Adds spell-check for any language, multiple languages can be added
-21. **[minimap](https://atom.io/packages/minimap)**
+22. **[minimap](https://atom.io/packages/minimap)**
     - Sidebar with full file preview
     - Toggle on/off via <kbd>Ctrl</kbd>+<kbd>Space</kbd>
-22. **[color-tabs](https://atom.io/packages/color-tabs)**
+23. **[color-tabs](https://atom.io/packages/color-tabs)**
     - add the ability to manually add color to tabs
     - should be combined with [color-tabs-regex](https://atom.io/packages/color-tabs-regex) for automatic coloring
-23. **[color-tabs-regex](https://atom.io/packages/color-tabs-regex)**
+24. **[color-tabs-regex](https://atom.io/packages/color-tabs-regex)**
     - automatically color tabs based on rules set in _~/.atom/color-tabs-regex.cson_
+
+**Please Note:**
+- When using the above mentioned package _markdown-preview-enhanced_. make sure to deactivate standard _markdown-preview_ package
+- Deactivating the _wrap-guide_ package removes the vertical line in the editor which would disturb otherwise
 
 ### Adjustments for markdown-themeable-pdf
 
