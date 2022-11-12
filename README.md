@@ -1,4 +1,6 @@
-# Markdown Cross-Device Setup for Note-Taking
+# Markdown Cross-Device Setup for Note-Taking using Atom
+
+> [Atom and all related projects will be archived on December 15<sup>th</sup> 2022.](https://github.blog/2022-06-08-sunsetting-atom/) Updates will not be provided. Thus, most of the below mentioned content related to Atom will be outdated soon and function may not work as described.
 
 Markdown is barrier-free and cross-platform. This is a short summary of an example Markdown setup which can be synchronized between Windows or Desktop Linux and Android devices.
 
