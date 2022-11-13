@@ -1,0 +1,152 @@
+{
+    "editor.guides.indentation": false,
+    "editor.fontSize": 14,
+    "files.autoSave": "onFocusChange",
+    "editor.tabCompletion": "on",
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.showSlider": "always",
+    "emmet.excludeLanguages": [],
+    "window.menuBarVisibility": "compact",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.colorTheme": "Atom One Light",
+    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    "workbench.preferredHighContrastColorTheme": "Atom One Dark",
+    "workbench.preferredHighContrastLightColorTheme": "Atom One Light",
+    "workbench.preferredLightColorTheme": "Atom One Light",
+    "workbench.colorCustomizations": {
+        "editorInfo.foreground": "#ff0000",
+        "editorOverviewRuler.errorForeground": "#00000000",
+        "editorOverviewRuler.warningForeground": "#00000000",
+        "editorOverviewRuler.infoForeground":"#00000000"
+    },
+    "breadcrumbs.enabled": false,
+    "markdown.extension.italic.indicator": "_",
+    "markdown-pdf.breaks": true,
+    "markdown-pdf.orientation": "landscape",
+    "cSpell.enabled": true,
+    "cSpell.language": "en-US,de-DE",
+    "cSpell.enabledLanguageIds": [
+       "md"
+    ],
+    "cSpell.maxNumberOfProblems": 10000,
+    "cSpell.maxDuplicateProblems": 5000,
+    "cSpell.checkLimit": 500000,
+    "cSpell.blockCheckingWhenLineLengthGreaterThan": 100000,
+    "cSpell.blockCheckingWhenTextChunkSizeGreaterThan": 50000,
+    "cSpell.blockCheckingWhenAverageChunkSizeGreaterThan": 500,
+    "insertDateString.formatTime": "hh:mm",
+    "insertDateString.formatDate": "**DD.MM.YYYY**",
+    "insertDateString.format": "DD.MM.YYYY - hh:mm",
+    "pasteImage.defaultName": "YYMMDD_HHmmss",
+    "pasteImage.path": "${currentFileDir}\\Media",
+    "colorTabs.titleLabel": true,
+    "colorTabs.statusBarBackground": false,
+    "colorTabs.config": [
+        {
+            "regex": ".*\/Meetings\/.*",
+            "color": "#4287f5",
+        },
+        {
+            "regex": ".*json",
+            "color": "#ad0000",
+        },
+        {
+            "regex": "Abbreviations",
+            "color": "#878787",
+        }    
+    ],
+    "editor.tokenColorCustomizations": {
+        "[Atom One Light] [Atom One Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "markup.bold.markdown",
+                    "settings": {
+                        "foreground": "#de935f",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "markup.italic.markdown",
+                    "settings": {
+                        "foreground": "#b294bb",
+                        "fontStyle": "italic"
+                    }
+                }, 
+                {
+                    "scope": "markup.bold.markdown markup.italic.markdown",
+                    "settings": {
+                        "fontStyle": "italic bold",
+                    }
+                },               
+                {
+                    "scope": "markup.strikethrough.markdown",
+                    "settings": {
+                        "foreground": "#0000ff",
+                        "fontStyle": "strikethrough"
+                    }
+                },
+                {
+                    "scope": "markup.strikethrough.markdown markup.italic.markdown",
+                    "settings": {
+                        "foreground": "#0000ff",
+                        "fontStyle": "strikethrough"
+                    }
+                },
+                {
+                    "scope": "markup.strikethrough.markdown markup.bold.markdown",
+                    "settings": {
+                        "foreground": "#0000ff",
+                        "fontStyle": "strikethrough"
+                    }
+                },
+                {
+                    "scope": "string.other.link.title.markdown",
+                    "settings": {
+                        "foreground": "#8abeb7",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "markup.underline.link.markdown",
+                    "settings": {
+                        "foreground": "#81a2be",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "markup.inline.raw",
+                    "settings": {
+                        "foreground": "#b8bf6d",
+                    }
+                },
+                {
+                    "scope": "markup.fenced_code.block.markdown",
+                    "settings": {
+                        "foreground": "#b8bf6d",
+                    }
+                }, 
+                {
+                    "scope": "punctuation.definition.bold.markdown",
+                    "settings": {
+                        "foreground": "#000000",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.italic.markdown",
+                    "settings": {
+                        "foreground": "#000000",
+                        "fontStyle": "italic"
+                    }
+                }             
+            ]
+        }
+    },
+    "cSpell.enableFiletypes": [
+        "markdown"
+    ]
+}
