@@ -276,7 +276,9 @@ Adjustments for the described VS Code setup as follows in the below table. Pleas
 ### Configuring User Snippets
 
 Text snippets for fast input can be specified in the _snippets.code-snippets_ file which is accessible via Manage > Configure User Snippets.
+
 ![](Media/221113_182347.png)
+
 _snippets.code-snippets_ is located in `%APPDATA%\Code\User\snippets\`. Snippets are defined under a snippet name which has at least a _prefix_ and a _body_. Snippets can be called by typing the prefix and hitting <kbd>Tab</kbd>.
 
 ```
