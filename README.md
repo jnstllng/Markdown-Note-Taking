@@ -4,10 +4,11 @@ _Markdown_ is barrier-free and cross-platform. This is a short summary of an exa
 
 ## Setup Visual Studio Code (VS Code) as Markdown Note-Taking Tool
 
-**_Visual Studio Code_** allows to be set up as the perfect markdown note-taking or (creative) writing tool for any kind text-based projects. This allows fast and economical recording of ideas with text, screenshots etc. This summary lists extensions that can be used for an almost perfect markdown experience. The list is frequently updated as usage of VS Code with its extensions might change.
-VS Code settings and extensions (settings included) can be synced automatically using a GitHub or Microsoft account
+[VS Code](https://code.visualstudio.com) allows to be set up as the perfect markdown note-taking or (creative) writing tool for any kind text-based projects. This allows fast and economical recording of ideas with text, screenshots etc. This summary lists extensions that can be used for an almost perfect markdown experience. The list is frequently updated as usage of VS Code with its extensions might change. VS Code settings and extensions (settings included) can be synced automatically using a GitHub or Microsoft account.
 
-![](Media/221113_194339.png)
+Below mentioned adjustments to settings and keyboard shortcuts can be copied from the example _settings.json_ and _keybindings.json_ files in the _VS Code Settings_ subfolder of this repository. Please note that most of these adjustments only work when the mentioned extensions are installed and enabled.
+
+![](Media/221113_200404.png)
 
 ## Extensions
 
