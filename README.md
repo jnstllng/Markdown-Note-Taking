@@ -18,23 +18,19 @@ Below mentioned adjustments to settings and keyboard shortcuts can be copied fro
     - [GitHub](https://github.com/yzhang-gh/vscode-markdown) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
     - Most important settings and functions needed to work with Markdown documents
     
-2. **Markdown Preview Enhanced**
-    - [GitHub](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-    - Maybe the most versatile markdown preview package for Atom including scroll sync
-  
-3. **Markdown Tables**
+2. **Markdown Tables**
     - [GitHub](https://github.com/philipparndt/vscode-markdown-tables) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=pharndt.vscode-markdown-table)
     - Easily create, extend and edit tables in markdown files
   
-4. **Paste Image**
+3. **Paste Image**
     - [Github](https://github.com/mushanshitiancai/vscode-paste-image) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
     - Easily copy and paste images from clipboard (includes files and screenshots)
 
-5. **Markdown Meaningful Word Count**
+4. **Markdown Meaningful Word Count**
     - [GitHub](https://github.com/akashagarwal7/markdown-meaningful-wordcount) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=akashagarwal.markdown-meaningful-wordcount)
     - Counts words in Markdown files and ignores all punctuation marks
 
-6. **Markdown PDF**
+5. **Markdown PDF**
     - [GitHub](https://github.com/yzane/vscode-markdown-pdf) | [Marketplace](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
     - Fast conversion of Markdown into pdf files
 
@@ -257,13 +253,14 @@ Adjustments for the described VS Code setup as follows in the below table. Pleas
 | Editor: Enable/Disable Minimap |           |      X      |                 <kbd>Ctrl</kbd> + <kbd>M</kbd>                 |
 | Editor: Move Line Up           |           |      X      |                 <kbd>Ctrl</kbd> + <kbd>↑</kbd>                 |
 | Editor: Move Line Down         |           |      X      |                 <kbd>Ctrl</kbd> + <kbd>↓</kbd>                 |
+| Open Markdown Preview          |           |      X      |        <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>       |
+| Close Markdown Preview         |           |      X      |        <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>       |
 | Markdown Bold                  |     X     |             |                 <kbd>Ctrl</kbd> + <kbd>B</kbd>                 |
 | Markdown Italic                |     X     |             |                 <kbd>Ctrl</kbd> + <kbd>I</kbd>                 |
 | Markdown Strikethrough         |     X     |             |        <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>       |
 | Markdown Code Span             |     X     |             |        <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>#</kbd>       |
 | Markdown Code Block            |     X     |             |        <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>+</kbd>       |
 | Markdown: Toggle Task          |     X     |             |                  <kbd>Alt</kbd> + <kbd>C</kbd>                 |
-| Open Markdown Preview          |     X     |             |        <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>       |
 | Markdown Table: Enable/Disable |     X     |             | <kbd>Ctrl</kbd> + <kbd>Q</kbd>, <kbd>Ctrl</kbd> + <kbd>Q</kbd> |
 | Markdown Table: Next Cell      |     X     |             |                         <kbd>Tab</kbd>                         |
 | Markdown Table: Previous Cell  |     X     |             |                <kbd>Shift</kbd> + <kbd>Tab</kbd>               |
